@@ -1,0 +1,26 @@
+/** @format */
+
+$backgroundPrimary: black;
+$textColor: white;
+$navbarMarg: 60px;
+$defaultFont: 'Anonymous Pro', monospace;
+$headingFont: 'Press Start 2P', monospace;
+
+body {
+  background: $backgroundPrimary;
+  color: $textColor;
+  margin-top: $navbarMarg;
+  font-family: $defaultFont;
+}
+
+footer {
+  text-align: center;
+}
+
+#coName {
+  font-family: $headingFont;
+}
+
+#welcome {
+  text-align: center;
+}
