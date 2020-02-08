@@ -2,7 +2,7 @@
 
 $backgroundPrimary: black;
 $textColor: white;
-$navbarMarg: 60px;
+$navbarMarg: 5em;
 $defaultFont: 'Anonymous Pro', monospace;
 $headingFont: 'Press Start 2P', monospace;
 
@@ -17,6 +17,13 @@ body {
 
 footer {
   text-align: center;
+}
+
+#logo{
+  $logoSize: 2em;
+  max-width: $logoSize;
+  max-height: $logoSize;
+  margin-right: 1em;
 }
 
 #coName {
