@@ -7,6 +7,7 @@ $defaultFont: 'Anonymous Pro', monospace;
 $headingFont: 'Press Start 2P', monospace;
 $coSize: 1.5em;
 $coSizeMobile: 1.2em;
+$nLinkSize: 1.2em;
 
 body {
   background: $backgroundPrimary;
@@ -35,6 +36,12 @@ footer {
   @media (min-width: 600px) {
     font-size: $coSize;
   }
+}
+
+@media (min-width: 600px) {
+    .nav-link {
+      font-size: $nLinkSize;
+    }
 }
 
 h1,

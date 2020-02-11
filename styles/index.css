@@ -29,6 +29,12 @@ footer {
   }
 }
 
+@media (min-width: 600px) {
+  .nav-link {
+    font-size: 1.2em;
+  }
+}
+
 h1,
 h2,
 h3,
