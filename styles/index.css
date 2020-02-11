@@ -43,3 +43,11 @@ h5,
 h6 {
   text-align: center;
 }
+
+footer {
+  font-size: 0.8em;
+}
+
+footer .fa-copyright {
+  font-size: 0.6em;
+}

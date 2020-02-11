@@ -8,6 +8,8 @@ $headingFont: 'Press Start 2P', monospace;
 $coSize: 1.5em;
 $coSizeMobile: 1.2em;
 $nLinkSize: 1.2em;
+$footFontSize: .8em;
+$footCopySize: .6em;
 
 body {
   background: $backgroundPrimary;
@@ -51,4 +53,11 @@ h4,
 h5,
 h6 {
   text-align: center;
+}
+
+footer {
+  font-size: $footFontSize;
+  .fa-copyright {
+    font-size: $footCopySize;
+  }
 }
