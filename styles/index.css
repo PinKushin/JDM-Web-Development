@@ -20,6 +20,13 @@ footer {
 
 #coName {
   font-family: "Press Start 2P", monospace;
+  font-size: 1.2em;
+}
+
+@media (min-width: 600px) {
+  #coName {
+    font-size: 1.5em;
+  }
 }
 
 h1,

@@ -5,6 +5,8 @@ $textColor: white;
 $navbarMarg: 5em;
 $defaultFont: 'Anonymous Pro', monospace;
 $headingFont: 'Press Start 2P', monospace;
+$coSize: 1.5em;
+$coSizeMobile: 1.2em;
 
 body {
   background: $backgroundPrimary;
@@ -28,6 +30,11 @@ footer {
 
 #coName {
   font-family: $headingFont;
+  font-size: $coSizeMobile;
+
+  @media (min-width: 600px) {
+    font-size: $coSize;
+  }
 }
 
 h1,
