@@ -34,9 +34,12 @@
 
   <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+      role="navigation"
+    >
       <a class="navbar-brand" href="#" id="coName"
-        ><img id="logo" src="./images/logo.png" />JDM Web Development</a
+        ><img id="logo" src="./images/logo.png" alt="" />JDM Web Development</a
       >
       <button
         class="navbar-toggler hidden-lg-up"
@@ -47,13 +50,21 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="fas fa-bars"></span>
+        <span
+          class="fas fa-bars"
+          role="button navigation"
+          aria-pressed="false"
+        ></span>
       </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <div
+        class="collapse navbar-collapse"
+        id="collapsibleNavId"
+        role="navigation"
+      >
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="#welcomeHead"
-              >Home <span class="sr-only">(current)</span></a
+              >Home <span class="sr-only" role="navigation">(current)</span></a
             >
           </li>
           <li class="nav-item">
@@ -64,19 +75,25 @@
     </nav>
 
     <!--Page Content-->
-    <h1 id="welcomeHead">Welcome</h1>
-    <p id="welcomePara">
-      Hello and welcome to JDM Web Development's portfolio. I am John, the
-      owner. I am a full stack web developer with a background in PHP, Node.js,
-      HTML5, CSS3, Sass, Bootstrap, MongoDB, SQL, and Python. My priorities are
-      to create for you a responsive, secure, and fast website while offering
-      the best customer service you could ask for. If you are interested in my
-      services please contact me.
-    </p>
+    <main>
+      <section>
+        <h1 id="welcomeHead">Welcome</h1>
+        <p id="welcomePara">
+          Hello and welcome to JDM Web Development's portfolio. I am John, the
+          owner. I am a full stack web developer with a background in PHP,
+          Node.js, HTML5, CSS3, Sass, Bootstrap, MongoDB, SQL, and Python. My
+          priorities are to create for you a responsive, secure, and fast
+          website while offering the best customer service you could ask for. If
+          you are interested in my services please contact me.
+        </p>
+      </section>
 
-    <!--Portfolio content-->
-    <h2 class="portHead">Portfolio</h2>
-    <div id="portCon"><p>This is some of my previous work.</p></div>
+      <!--Portfolio content-->
+      <section>
+        <h2 class="portHead">Portfolio</h2>
+        <p id="portCon">This is some of my previous work.</p>
+      </section>
+    </main>
     <!--Footer-->
     <footer class="container-fluid">
       Copyright<i class="fa fa-copyright" aria-hidden="true"></i>
